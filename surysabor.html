@@ -1,0 +1,142 @@
+<!DOCTYPE <html>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sur Y Sabor</title>
+</head>
+<body>
+    <header>
+        <h1>Sur Y Sabor</h1>
+    </header>
+
+    <img src="./logo.png" alt="logo Sur Y sabor">
+    
+    <h2>Menú</h2>
+    <p>Por solo 2.000$ adicionales arma tu combo con resfresco</p>
+    <h3>Mas Apetecidos</h3>
+    <ul>
+        <li>Arepa rellena....................14.000$</li>
+        <li>Taco grande......................16.000$</li>
+        <li>Patacon con carne................14.000$</li>
+        <li>Salchipapa extra todo............18.000$</li>
+        <li>Pincho de carne de res...........15.000$</li>
+        <li>Pincho mixto.....................20.000$</li>
+    </ul>
+
+        <h3>Más para comer calientito y rico</h3>
+        <li> Arepa extra queso................7.000$</li>
+        <li>Hamburguesa premium..............18.000$</li>
+        <li>Perro caliente bien perrón...... 16.000$</li>
+        <li>Totopos..........................18.000$</li>
+        <li>Pastel de cerdo..................14.000$</li>
+        <li>Salchipapa mediana...............14.000$</li>
+   
+
+    <h3>Especiales</h3>
+    <dt>
+        <dt><b>Salchipapa extra todo</b>.....18.000$</dt>
+        <dd>Papa a la francesa, papa criolla, choririzo cevecero, salchicha ranchera, 
+            carne desmechada, huevos de codorniz, pollo desmechado, queso mozarella derretido</dd>
+        <dt><b>Pincho mixto</b> .............18.000$</dt>
+        <dd>carne de res, carne de cerdo, verduras, chorizo</dd>
+        <dt><b>Alitas BBQ sabor extremo</b>..22.000$</dt>
+        <dd>Alitas de pollo en salsa BBQ picante, ensalada, y papas a la frnacessa</dd>
+
+    </dt>
+
+    <hr>
+
+    <h2>Ubicación</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Norte</td>
+            <td><a href="https://goo.gl/maps/ZMkhv7XMKfqofFFr8" target="_blank">Cra. 93A #11A-41, Bogotá
+            </a></td>
+            <td>L-S 8am-10pm. D 8am-2pm.</td>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="https://goo.gl/maps/FeJjncQaHJiiwWwb6" target="_blank"> Cra. 10 #30a Sur-46 a, Bogotá</a></td>
+            <td>L-S 8am-10pm. D 8am-2pm.</td>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/5Q6oQxEUoXLYZK7L6" target="_blank">Cl. 39 #21-11, Bogotá</a></td>
+            <td>L-S 8am-10pm. D 8am-5pm.</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedido aquí</h3>
+    <form action="">
+
+      <p>¿De que sucursal quieres pedir?</p>
+     <select>
+         <option value="Norte">Norte</option>
+         <option value="Centro">Centro</option>
+         <option value="Sur">Sur</option>
+      </select>
+      <p><b>¿Qué deseas ordenar?</b></p>
+        
+        <input type="checkbox" id="Salchipapa" name="Salchipapa" value="Salchipapa">
+        <label for="Salchipapa">Salchipapa extra todo</label>
+        <input type="number" id="SalchipapaNumber" name="SalchipapaNumber"placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Patacón" name="Patacón" value="Patacón">
+        <label for="Patacón">Patacón mediano</label>
+        <input type="number" id="PatacónNumber" name="PatacónNumber"placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Pastel" name="Pastel" value="Pastel">
+        <label for="Pastel">Pastel de cerdo</label>
+        <input type="number" id="PastelNumber" name="PastelNumber"placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Aepa" name="Aepa" value="Aepa">
+        <label for="Aepa">Arepa rellena</label>
+        <input type="number" id="AepaNumber" name="AepaNumber" placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Taco" name="Taco" value="Taco">
+        <label for="Pastel">Taco grande</label>
+        <input type="number" id="TacoNumber" name="TacoNumber"placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Totopos" name="Totopos" value="Totopos">
+        <label for="Totopos">Totopos</label>
+        <input type="number" id="TotoposNumber" name="TotoposNumber"placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Alitas" name="Alitas" value="Alitas">
+        <label for="Alitas">Alitas sabor extremo</label>
+        <input type="number" id="AlitasNumber" name="AlitasNumber"placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Pincho" name="Pincho" value="Pincho">
+        <label for="Pincho">Pincho mixto</label>
+        <input type="number" id="PinchoNumber" name="PinchoNumner"placeholder="Cantidad">
+        <br><br>
+        <label for="Nombre"></label><br>
+        <input type="text" id="Nombre" name="=Nombre" placeholder="¿Cómo te llamas?">
+
+        <br><br>
+
+        <label for="Telefono"></label><br>
+        <input type="text" id="Nombre" name="Telefono" placeholder="¿Cuál es tu número telefónico">
+
+        <br><br>
+        <label for="Direccion"></label><br>
+        <input type="text" id="Direccion" name="=Direccion" placeholder="¿En qué dirección quieres recibir tu pedido?">
+        <br><br>
+        <button type="submit">Enviar pedido</button>
+    </form>
+    
+
+</body>
+</html>
+
